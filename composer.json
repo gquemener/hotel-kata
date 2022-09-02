@@ -1,0 +1,16 @@
+{
+    "name": "correspondence/team",
+    "type": "project",
+    "require-dev": {
+        "behat/behat": "^3.11",
+        "phpunit/phpunit": "^9.5",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
