@@ -4,7 +4,8 @@ Feature: Booking room
     I need to be able to book rooms
 
     Scenario: Successfully book a room
-        Given a hotel named "Tortilla" which has the following rooms:
+        Given a hotel named "Tortilla" has opened
+        And it has the following rooms:
             | type     | number |
             | standard | 10     |
             | business | 5      |

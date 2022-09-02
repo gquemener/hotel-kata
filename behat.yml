@@ -1,7 +1,11 @@
 default:
   exceptions:
     verbosity: 128
+
   formatters:
     pretty:
       output_styles:
         comment: [ yellow ]
+  suites:
+    default:
+      contexts: ['BookingContext']
